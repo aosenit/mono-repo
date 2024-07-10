@@ -1,5 +1,5 @@
 [build]
-  command = "nx build auth && nx build fincare-app"
+  command = "npx nx run fincare-app:build "
   publish = "dist/apps/fincare-app"
 
 [context.production.environment]
