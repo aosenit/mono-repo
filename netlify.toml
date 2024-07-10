@@ -1,9 +1,3 @@
-[build]
-  command = "npx nx run fincare-app:build "
-  publish = "dist/apps/fincare-app"
-
-[context.production.environment]
-  NODE_ENV = "production"
 
 [[redirects]]
   from = "/*"
