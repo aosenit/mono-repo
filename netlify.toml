@@ -1,6 +1,6 @@
 [build]
-  command = "nx build auth && nx build fincare"
-  publish = "dist/apps/fincare"
+  command = "nx build auth && nx build fincare-app"
+  publish = "dist/apps/fincare-app"
 
 [context.production.environment]
   NODE_ENV = "production"
